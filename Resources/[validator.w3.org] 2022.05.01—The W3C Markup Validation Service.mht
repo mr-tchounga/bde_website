@@ -1,0 +1,1520 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://validator.w3.org/
+Subject: The W3C Markup Validation Service
+Date: Sun, 1 May 2022 18:00:37 -0000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--xncY303bSBrMlm08etq5yb9te0L8bP5vtXjz1f3zAi----"
+
+
+------MultipartBoundary--xncY303bSBrMlm08etq5yb9te0L8bP5vtXjz1f3zAi----
+Content-Type: text/html
+Content-ID: <frame-3D231BBF98790B9BE0EB9B93E75A437F@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://validator.w3.org/
+
+<!DOCTYPE html><html xmlns=3D"http://www.w3.org/1999/xhtml" xml:lang=3D"en"=
+ lang=3D"en"><head><meta http-equiv=3D"Content-Type" content=3D"text/html; =
+charset=3DUTF-8"><link rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css=
+-ca70a790-1607-4da9-a0a9-f8f892309541@mhtml.blink" />
+   =20
+    <title>The W3C Markup Validation Service</title>
+    <link rel=3D"help" href=3D"mailto:www-validator@w3.org">
+    <link rel=3D"shortcut icon" href=3D"https://validator.w3.org/images/fav=
+icon.ico" type=3D"image/x-icon">
+    <link rel=3D"start" href=3D"https://validator.w3.org/" title=3D"Home Pa=
+ge">
+    <link rel=3D"stylesheet" href=3D"https://validator.w3.org/style/base" t=
+ype=3D"text/css" media=3D"all">
+    <meta name=3D"keywords" content=3D"HTML, HyperText Markup Language, Val=
+idation,
+      W3C Markup Validation Service">
+    <meta name=3D"description" content=3D"W3C's easy-to-use
+      markup validation service, based on SGML and XML parsers.">
+   =20
+    <link rel=3D"alternate" type=3D"application/atom+xml" href=3D"http://ww=
+w.w3.org/QA/Tools/validator-whatsnew.atom">
+   =20
+  </head>
+
+  <body>
+    <div id=3D"banner">
+      <h1 id=3D"title">
+        <a href=3D"http://www.w3.org/">
+          <img alt=3D"W3C Logo" width=3D"110" height=3D"61" id=3D"logo" src=
+=3D"https://validator.w3.org/images/w3c.png">
+        </a>
+        <a href=3D"https://validator.w3.org/"><span>Markup Validation Servi=
+ce</span></a>
+      </h1>
+      <p id=3D"tagline">Check the markup (HTML, XHTML, =E2=80=A6) of Web do=
+cuments</p>
+    </div>
+
+
+
+<div id=3D"frontforms">
+	<ul id=3D"tabset_tabs">
+		<li class=3D"selected"><a href=3D"https://validator.w3.org/#validate_by_u=
+ri"><span>Validate by</span> URI</a></li>
+		<li class=3D""><a href=3D"https://validator.w3.org/#validate_by_upload"><=
+span>Validate by</span> File Upload</a></li>
+		<li class=3D""><a href=3D"https://validator.w3.org/#validate_by_input"><s=
+pan>Validate by</span> Direct Input</a></li>
+	</ul>
+<div id=3D"fields">
+
+<fieldset id=3D"validate-by-uri" class=3D"tabset_content front" style=3D"di=
+splay: block; visibility: visible; zoom: 1; opacity: 1;"><legend class=3D"t=
+abset_label">Validate by URI</legend>
+  <form method=3D"get" action=3D"https://validator.w3.org/check">
+    <p class=3D"instructions">
+	Validate a document online:    =20
+   </p>
+   <p>
+	<label title=3D"Address of page to Validate" for=3D"uri">Address:</label>
+        <input type=3D"text" name=3D"uri" id=3D"uri" inputmode=3D"url" size=
+=3D"45">
+   </p>
+  <fieldset id=3D"extra_opt_uri" class=3D"moreoptions">
+		<legend class=3D"toggletext"><a href=3D"https://validator.w3.org/#validat=
+e_by_uri+with_options">More Options</a></legend>
+		<div style=3D"margin: 0px; position: static; overflow: hidden; height: 0p=
+x;"><div class=3D"options" style=3D"margin: -186px 0px 0px;">
+	=09
+               =20
+                <table>
+  <tbody><tr>
+    <th>
+      <label for=3D"uri-charset">Character Encoding</label>
+    </th>
+    <td>
+                    <select id=3D"uri-charset" name=3D"charset">
+                <option value=3D"(detect automatically)" selected=3D"select=
+ed">(detect automatically)</option>
+                <option value=3D"utf-8">utf-8 (Unicode, worldwide)</option>
+                <option value=3D"utf-16">utf-16 (Unicode, worldwide)</optio=
+n>
+                <option value=3D"iso-8859-1">iso-8859-1 (Western Europe)</o=
+ption>
+                <option value=3D"iso-8859-2">iso-8859-2 (Central Europe)</o=
+ption>
+                <option value=3D"iso-8859-3">iso-8859-3 (Southern Europe)</=
+option>
+                <option value=3D"iso-8859-4">iso-8859-4 (North European)</o=
+ption>
+                <option value=3D"iso-8859-5">iso-8859-5 (Cyrillic)</option>
+                <option value=3D"iso-8859-6-i">iso-8859-6-i (Arabic)</optio=
+n>
+                <option value=3D"iso-8859-7">iso-8859-7 (Greek)</option>
+                <option value=3D"iso-8859-8">iso-8859-8 (Hebrew, visual)</o=
+ption>
+                <option value=3D"iso-8859-8-i">iso-8859-8-i (Hebrew, logica=
+l)</option>
+                <option value=3D"iso-8859-9">iso-8859-9 (Turkish)</option>
+                <option value=3D"iso-8859-10">iso-8859-10 (Latin 6)</option=
+>
+                <option value=3D"iso-8859-11">iso-8859-11 (Latin/Thai)</opt=
+ion>
+                <option value=3D"iso-8859-13">iso-8859-13 (Latin 7, Baltic =
+Rim)</option>
+                <option value=3D"iso-8859-14">iso-8859-14 (Latin 8, Celtic)=
+</option>
+                <option value=3D"iso-8859-15">iso-8859-15 (Latin 9)</option=
+>
+                <option value=3D"iso-8859-16">iso-8859-16 (Latin 10)</optio=
+n>
+                <option value=3D"us-ascii">us-ascii (basic English)</option=
+>
+                <option value=3D"euc-jp">euc-jp (Japanese, Unix)</option>
+                <option value=3D"shift_jis">shift_jis (Japanese, Win/Mac)</=
+option>
+                <option value=3D"iso-2022-jp">iso-2022-jp (Japanese, email)=
+</option>
+                <option value=3D"euc-kr">euc-kr (Korean)</option>
+                <option value=3D"ksc_5601">ksc_5601 (Korean)</option>
+                <option value=3D"gb2312">gb2312 (Chinese, simplified)</opti=
+on>
+                <option value=3D"gb18030">gb18030 (Chinese, simplified)</op=
+tion>
+                <option value=3D"big5">big5 (Chinese, traditional)</option>
+                <option value=3D"big5-HKSCS">Big5-HKSCS (Chinese, Hong Kong=
+)</option>
+                <option value=3D"tis-620">tis-620 (Thai)</option>
+                <option value=3D"koi8-r">koi8-r (Russian)</option>
+                <option value=3D"koi8-u">koi8-u (Ukrainian)</option>
+                <option value=3D"iso-ir-111">iso-ir-111 (Cyrillic KOI-8)</o=
+ption>
+                <option value=3D"macintosh">macintosh (MacRoman)</option>
+                <option value=3D"windows-1250">windows-1250 (Central Europe=
+)</option>
+                <option value=3D"windows-1251">windows-1251 (Cyrillic)</opt=
+ion>
+                <option value=3D"windows-1252">windows-1252 (Western Europe=
+)</option>
+                <option value=3D"windows-1253">windows-1253 (Greek)</option=
+>
+                <option value=3D"windows-1254">windows-1254 (Turkish)</opti=
+on>
+                <option value=3D"windows-1255">windows-1255 (Hebrew)</optio=
+n>
+                <option value=3D"windows-1256">windows-1256 (Arabic)</optio=
+n>
+                <option value=3D"windows-1257">windows-1257 (Baltic Rim)</o=
+ption>
+              </select>
+
+    </td>
+    <td><input id=3D"uri-fbc" name=3D"fbc" type=3D"checkbox" value=3D"1"><l=
+abel for=3D"uri-fbc" title=3D"Use selected Character encoding only if missi=
+ng in the document">Only if missing</label></td>
+  </tr>
+  <tr>
+    <th>
+        <label for=3D"uri-doctype">Document Type</label>
+    </th>
+    <td>
+        <select id=3D"uri-doctype" name=3D"doctype">
+  <option value=3D"Inline" selected=3D"selected">(detect automatically)</op=
+tion>
+  <option value=3D"HTML5">HTML5 (experimental)</option>
+  <option value=3D"XHTML 1.0 Strict">XHTML 1.0 Strict</option>
+  <option value=3D"XHTML 1.0 Transitional">XHTML 1.0 Transitional</option>
+  <option value=3D"XHTML 1.0 Frameset">XHTML 1.0 Frameset</option>
+  <option value=3D"HTML 4.01 Strict">HTML 4.01 Strict</option>
+  <option value=3D"HTML 4.01 Transitional">HTML 4.01 Transitional</option>
+  <option value=3D"HTML 4.01 Frameset">HTML 4.01 Frameset</option>
+  <option value=3D"HTML 4.01 + RDFa 1.1">HTML 4.01 + RDFa 1.1</option>
+  <option value=3D"HTML 3.2">HTML 3.2</option>
+  <option value=3D"HTML 2.0">HTML 2.0</option>
+  <option value=3D"ISO/IEC 15445:2000 (&quot;ISO HTML&quot;)">ISO/IEC 15445=
+:2000 ("ISO HTML")</option>
+  <option value=3D"XHTML 1.1">XHTML 1.1</option>
+  <option value=3D"XHTML + RDFa">XHTML + RDFa</option>
+  <option value=3D"XHTML Basic 1.0">XHTML Basic 1.0</option>
+  <option value=3D"XHTML Basic 1.1">XHTML Basic 1.1</option>
+  <option value=3D"XHTML Mobile Profile 1.2">XHTML Mobile Profile 1.2</opti=
+on>
+  <option value=3D"XHTML-Print 1.0">XHTML-Print 1.0</option>
+  <option value=3D"XHTML 1.1 plus MathML 2.0">XHTML 1.1 plus MathML 2.0</op=
+tion>=20
+  <option value=3D"XHTML 1.1 plus MathML 2.0 plus SVG 1.1">XHTML 1.1 plus M=
+athML 2.0 plus SVG 1.1</option>=20
+  <option value=3D"MathML 2.0">MathML 2.0</option>
+  <option value=3D"SVG 1.0">SVG 1.0</option>
+  <option value=3D"SVG 1.1">SVG 1.1</option>
+  <option value=3D"SVG 1.1 Tiny">SVG 1.1 Tiny</option>
+  <option value=3D"SVG 1.1 Basic">SVG 1.1 Basic</option>
+  <option value=3D"SMIL 1.0">SMIL 1.0</option>
+  <option value=3D"SMIL 2.0">SMIL 2.0</option>
+</select>
+    </td>
+    <td><label for=3D"uri-fbd"><input id=3D"uri-fbd" name=3D"fbd" type=3D"c=
+heckbox" value=3D"1" title=3D"Use selected Document Type only if missing in=
+ the document">Only if missing</label></td>
+  </tr>
+  <tr>
+          <td colspan=3D"3"><input type=3D"radio" name=3D"group" id=3D"urig=
+roup_no" value=3D"0" checked=3D"checked"><label for=3D"urigroup_no">List Me=
+ssages Sequentially</label> <input type=3D"radio" name=3D"group" id=3D"urig=
+roup_yes" value=3D"1"><label for=3D"urigroup_yes">Group Error Messages by T=
+ype</label></td>
+
+</tr>
+<tr>
+        <td><input id=3D"uri-ss" name=3D"ss" type=3D"checkbox" value=3D"1">=
+<label title=3D"Show Page Source" for=3D"uri-ss">Show Source</label></td>
+        <td colspan=3D"2"><input id=3D"uri-st" name=3D"st" type=3D"checkbox=
+" value=3D"1"><label for=3D"uri-st">Clean up Markup with HTML-Tidy</label>
+        </td>
+       =20
+
+
+          </tr>
+          <tr>
+                  <td><input id=3D"uri-outline" name=3D"outline" type=3D"ch=
+eckbox" value=3D"1"><label title=3D"Show an Outline of the document" for=3D=
+"uri-outline">Show Outline</label>
+                  </td>
+                  <td><input id=3D"uri-No200" name=3D"No200" type=3D"checkb=
+ox" value=3D"1"><label title=3D"Validate also pages for which the HTTP stat=
+us code indicates an error" for=3D"uri-No200">Validate error pages</label><=
+/td>
+
+                  <td><input id=3D"uri-verbose" name=3D"verbose" type=3D"ch=
+eckbox" value=3D"1"><label title=3D"Verbose Output" for=3D"uri-verbose">Ver=
+bose Output</label></td>
+        </tr>
+</tbody></table>
+
+ =20
+    </div></div>
+  </fieldset>
+
+
+	<p class=3D"submit_button">
+			<input type=3D"submit" title=3D"Submit for validation" value=3D"Check" s=
+tyle=3D"display: none;"><a class=3D"submit" href=3D"https://validator.w3.or=
+g/#">Check</a>
+	</p>
+=09
+  </form>
+</fieldset>
+
+<fieldset id=3D"validate-by-upload" class=3D"tabset_content front" style=3D=
+"display: none;"><legend class=3D"tabset_label">Validate by File Upload</le=
+gend>
+<form method=3D"post" enctype=3D"multipart/form-data" action=3D"https://val=
+idator.w3.org/check">
+  <p class=3D"instructions">Upload a document for validation:</p>
+  <p><label title=3D"Choose a Local File to Upload and Validate" for=3D"upl=
+oaded_file">File:</label>
+    <input type=3D"file" id=3D"uploaded_file" name=3D"uploaded_file" size=
+=3D"30"></p>       =20
+    <fieldset id=3D"extra_opt_upload" class=3D"moreoptions">
+			<legend class=3D"toggletext"><a href=3D"https://validator.w3.org/#valida=
+te_by_upload+with_options">More Options</a></legend>
+			<div style=3D"margin: 0px; position: static; overflow: hidden;"><div cla=
+ss=3D"options" style=3D"margin: 0px;">
+        =20
+         <table>
+  <tbody><tr>
+    <th>
+      <label for=3D"upload-charset">Character Encoding</label>
+    </th>
+    <td>
+                    <select id=3D"upload-charset" name=3D"charset">
+                <option value=3D"(detect automatically)" selected=3D"select=
+ed">(detect automatically)</option>
+                <option value=3D"utf-8">utf-8 (Unicode, worldwide)</option>
+                <option value=3D"utf-16">utf-16 (Unicode, worldwide)</optio=
+n>
+                <option value=3D"iso-8859-1">iso-8859-1 (Western Europe)</o=
+ption>
+                <option value=3D"iso-8859-2">iso-8859-2 (Central Europe)</o=
+ption>
+                <option value=3D"iso-8859-3">iso-8859-3 (Southern Europe)</=
+option>
+                <option value=3D"iso-8859-4">iso-8859-4 (North European)</o=
+ption>
+                <option value=3D"iso-8859-5">iso-8859-5 (Cyrillic)</option>
+                <option value=3D"iso-8859-6-i">iso-8859-6-i (Arabic)</optio=
+n>
+                <option value=3D"iso-8859-7">iso-8859-7 (Greek)</option>
+                <option value=3D"iso-8859-8">iso-8859-8 (Hebrew, visual)</o=
+ption>
+                <option value=3D"iso-8859-8-i">iso-8859-8-i (Hebrew, logica=
+l)</option>
+                <option value=3D"iso-8859-9">iso-8859-9 (Turkish)</option>
+                <option value=3D"iso-8859-10">iso-8859-10 (Latin 6)</option=
+>
+                <option value=3D"iso-8859-11">iso-8859-11 (Latin/Thai)</opt=
+ion>
+                <option value=3D"iso-8859-13">iso-8859-13 (Latin 7, Baltic =
+Rim)</option>
+                <option value=3D"iso-8859-14">iso-8859-14 (Latin 8, Celtic)=
+</option>
+                <option value=3D"iso-8859-15">iso-8859-15 (Latin 9)</option=
+>
+                <option value=3D"iso-8859-16">iso-8859-16 (Latin 10)</optio=
+n>
+                <option value=3D"us-ascii">us-ascii (basic English)</option=
+>
+                <option value=3D"euc-jp">euc-jp (Japanese, Unix)</option>
+                <option value=3D"shift_jis">shift_jis (Japanese, Win/Mac)</=
+option>
+                <option value=3D"iso-2022-jp">iso-2022-jp (Japanese, email)=
+</option>
+                <option value=3D"euc-kr">euc-kr (Korean)</option>
+                <option value=3D"ksc_5601">ksc_5601 (Korean)</option>
+                <option value=3D"gb2312">gb2312 (Chinese, simplified)</opti=
+on>
+                <option value=3D"gb18030">gb18030 (Chinese, simplified)</op=
+tion>
+                <option value=3D"big5">big5 (Chinese, traditional)</option>
+                <option value=3D"big5-HKSCS">Big5-HKSCS (Chinese, Hong Kong=
+)</option>
+                <option value=3D"tis-620">tis-620 (Thai)</option>
+                <option value=3D"koi8-r">koi8-r (Russian)</option>
+                <option value=3D"koi8-u">koi8-u (Ukrainian)</option>
+                <option value=3D"iso-ir-111">iso-ir-111 (Cyrillic KOI-8)</o=
+ption>
+                <option value=3D"macintosh">macintosh (MacRoman)</option>
+                <option value=3D"windows-1250">windows-1250 (Central Europe=
+)</option>
+                <option value=3D"windows-1251">windows-1251 (Cyrillic)</opt=
+ion>
+                <option value=3D"windows-1252">windows-1252 (Western Europe=
+)</option>
+                <option value=3D"windows-1253">windows-1253 (Greek)</option=
+>
+                <option value=3D"windows-1254">windows-1254 (Turkish)</opti=
+on>
+                <option value=3D"windows-1255">windows-1255 (Hebrew)</optio=
+n>
+                <option value=3D"windows-1256">windows-1256 (Arabic)</optio=
+n>
+                <option value=3D"windows-1257">windows-1257 (Baltic Rim)</o=
+ption>
+              </select>
+
+    </td>
+    <td><input id=3D"upload-fbc" name=3D"fbc" type=3D"checkbox" value=3D"1"=
+><label for=3D"upload-fbc" title=3D"Use selected Character encoding only if=
+ missing in the document">Only if missing</label></td>
+  </tr>
+  <tr>
+    <th>
+        <label for=3D"upload-doctype">Document Type</label>
+    </th>
+    <td>
+        <select id=3D"upload-doctype" name=3D"doctype">
+  <option value=3D"Inline" selected=3D"selected">(detect automatically)</op=
+tion>
+  <option value=3D"HTML5">HTML5 (experimental)</option>
+  <option value=3D"XHTML 1.0 Strict">XHTML 1.0 Strict</option>
+  <option value=3D"XHTML 1.0 Transitional">XHTML 1.0 Transitional</option>
+  <option value=3D"XHTML 1.0 Frameset">XHTML 1.0 Frameset</option>
+  <option value=3D"HTML 4.01 Strict">HTML 4.01 Strict</option>
+  <option value=3D"HTML 4.01 Transitional">HTML 4.01 Transitional</option>
+  <option value=3D"HTML 4.01 Frameset">HTML 4.01 Frameset</option>
+  <option value=3D"HTML 4.01 + RDFa 1.1">HTML 4.01 + RDFa 1.1</option>
+  <option value=3D"HTML 3.2">HTML 3.2</option>
+  <option value=3D"HTML 2.0">HTML 2.0</option>
+  <option value=3D"ISO/IEC 15445:2000 (&quot;ISO HTML&quot;)">ISO/IEC 15445=
+:2000 ("ISO HTML")</option>
+  <option value=3D"XHTML 1.1">XHTML 1.1</option>
+  <option value=3D"XHTML + RDFa">XHTML + RDFa</option>
+  <option value=3D"XHTML Basic 1.0">XHTML Basic 1.0</option>
+  <option value=3D"XHTML Basic 1.1">XHTML Basic 1.1</option>
+  <option value=3D"XHTML Mobile Profile 1.2">XHTML Mobile Profile 1.2</opti=
+on>
+  <option value=3D"XHTML-Print 1.0">XHTML-Print 1.0</option>
+  <option value=3D"XHTML 1.1 plus MathML 2.0">XHTML 1.1 plus MathML 2.0</op=
+tion>=20
+  <option value=3D"XHTML 1.1 plus MathML 2.0 plus SVG 1.1">XHTML 1.1 plus M=
+athML 2.0 plus SVG 1.1</option>=20
+  <option value=3D"MathML 2.0">MathML 2.0</option>
+  <option value=3D"SVG 1.0">SVG 1.0</option>
+  <option value=3D"SVG 1.1">SVG 1.1</option>
+  <option value=3D"SVG 1.1 Tiny">SVG 1.1 Tiny</option>
+  <option value=3D"SVG 1.1 Basic">SVG 1.1 Basic</option>
+  <option value=3D"SMIL 1.0">SMIL 1.0</option>
+  <option value=3D"SMIL 2.0">SMIL 2.0</option>
+</select>
+    </td>
+    <td><label for=3D"upload-fbd"><input id=3D"upload-fbd" name=3D"fbd" typ=
+e=3D"checkbox" value=3D"1" title=3D"Use selected Document Type only if miss=
+ing in the document">Only if missing</label></td>
+  </tr>
+  <tr>
+          <td colspan=3D"3"><input type=3D"radio" name=3D"group" id=3D"uplo=
+adgroup_no" value=3D"0" checked=3D"checked"><label for=3D"uploadgroup_no">L=
+ist Messages Sequentially</label> <input type=3D"radio" name=3D"group" id=
+=3D"uploadgroup_yes" value=3D"1"><label for=3D"uploadgroup_yes">Group Error=
+ Messages by Type</label></td>
+
+</tr>
+<tr>
+        <td><input id=3D"upload-ss" name=3D"ss" type=3D"checkbox" value=3D"=
+1"><label title=3D"Show Page Source" for=3D"upload-ss">Show Source</label><=
+/td>
+        <td colspan=3D"2"><input id=3D"upload-st" name=3D"st" type=3D"check=
+box" value=3D"1"><label for=3D"upload-st">Clean up Markup with HTML-Tidy</l=
+abel>
+        </td>
+       =20
+
+
+          </tr>
+          <tr>
+                  <td><input id=3D"upload-outline" name=3D"outline" type=3D=
+"checkbox" value=3D"1"><label title=3D"Show an Outline of the document" for=
+=3D"upload-outline">Show Outline</label>
+                  </td>
+                  <td><input id=3D"upload-No200" name=3D"No200" type=3D"che=
+ckbox" value=3D"1"><label title=3D"Validate also pages for which the HTTP s=
+tatus code indicates an error" for=3D"upload-No200">Validate error pages</l=
+abel></td>
+
+                  <td><input id=3D"upload-verbose" name=3D"verbose" type=3D=
+"checkbox" value=3D"1"><label title=3D"Verbose Output" for=3D"upload-verbos=
+e">Verbose Output</label></td>
+        </tr>
+</tbody></table>
+
+
+      </div></div>
+    </fieldset><!-- invisible -->
+
+		<p class=3D"submit_button">
+				<input title=3D"Submit for validation" type=3D"submit" value=3D"Check" =
+style=3D"display: none;"><a class=3D"submit" href=3D"https://validator.w3.o=
+rg/#">Check</a>
+		</p>
+	=09
+</form>
+                <p><strong>Note</strong>: file upload may not work with Int=
+ernet
+                Explorer on some versions of Windows XP Service Pack 2, see=
+ our
+                <a href=3D"http://www.w3.org/QA/2005/01/Validator-IE_WinXP_=
+SP2">information page</a>
+                on the W3C QA Website.</p>
+
+</fieldset>
+      <fieldset id=3D"validate-by-input" class=3D"tabset_content front" sty=
+le=3D"display: none;"><legend class=3D"tabset_label">Validate by direct inp=
+ut</legend>
+                  <form method=3D"post" enctype=3D"multipart/form-data" act=
+ion=3D"https://validator.w3.org/check">
+                          <p class=3D"instructions"><label title=3D"Paste a=
+ complete (HTML) Document here" for=3D"fragment">Enter the Markup to valida=
+te</label>:<br>
+                                 =20
+                      	<textarea id=3D"fragment" name=3D"fragment" rows=3D"=
+12" cols=3D"80"></textarea>
+                       <!--  <br /><label for=3D"parsemodel">Treat as:</lab=
+el>
+                                <select id=3D"parsemodel" name=3D"parsemode=
+l">
+                                        <option value=3D"sgml">HTML</option=
+>
+                                        <option value=3D"xml">XML (and XHTM=
+L)</option>
+                                </select> -->
+                        </p>
+                          <fieldset id=3D"extra_opt_direct" class=3D"moreop=
+tions">
+                						<legend class=3D"toggletext"><a href=3D"https://valid=
+ator.w3.org/#validate_by_input+with_options">More Options</a></legend>
+                						<div style=3D"margin: 0px; position: static; overflow=
+: hidden;"><div class=3D"options" style=3D"margin: 0px;">
+                					=09
+                                        <table>
+                                       =20
+                                        <tbody><tr><th colspan=3D"3"><input=
+ id=3D"direct_prefill_no" name=3D"prefill" type=3D"radio" value=3D"0" check=
+ed=3D"checked">
+  <label for=3D"direct_prefill_no">Validate Full Document</label></th></tr>
+
+<tr class=3D"subchoice" id=3D"choice_full">
+        <th class=3D"subchoice_head"><label for=3D"direct-doctype">Use Doct=
+ype:</label></th>
+       =20
+<td>            <select id=3D"direct-doctype" name=3D"doctype">
+  <option value=3D"Inline" selected=3D"selected">(detect automatically)</op=
+tion>
+  <option value=3D"HTML5">HTML5 (experimental)</option>
+  <option value=3D"XHTML 1.0 Strict">XHTML 1.0 Strict</option>
+  <option value=3D"XHTML 1.0 Transitional">XHTML 1.0 Transitional</option>
+  <option value=3D"XHTML 1.0 Frameset">XHTML 1.0 Frameset</option>
+  <option value=3D"HTML 4.01 Strict">HTML 4.01 Strict</option>
+  <option value=3D"HTML 4.01 Transitional">HTML 4.01 Transitional</option>
+  <option value=3D"HTML 4.01 Frameset">HTML 4.01 Frameset</option>
+  <option value=3D"HTML 4.01 + RDFa 1.1">HTML 4.01 + RDFa 1.1</option>
+  <option value=3D"HTML 3.2">HTML 3.2</option>
+  <option value=3D"HTML 2.0">HTML 2.0</option>
+  <option value=3D"ISO/IEC 15445:2000 (&quot;ISO HTML&quot;)">ISO/IEC 15445=
+:2000 ("ISO HTML")</option>
+  <option value=3D"XHTML 1.1">XHTML 1.1</option>
+  <option value=3D"XHTML + RDFa">XHTML + RDFa</option>
+  <option value=3D"XHTML Basic 1.0">XHTML Basic 1.0</option>
+  <option value=3D"XHTML Basic 1.1">XHTML Basic 1.1</option>
+  <option value=3D"XHTML Mobile Profile 1.2">XHTML Mobile Profile 1.2</opti=
+on>
+  <option value=3D"XHTML-Print 1.0">XHTML-Print 1.0</option>
+  <option value=3D"XHTML 1.1 plus MathML 2.0">XHTML 1.1 plus MathML 2.0</op=
+tion>=20
+  <option value=3D"XHTML 1.1 plus MathML 2.0 plus SVG 1.1">XHTML 1.1 plus M=
+athML 2.0 plus SVG 1.1</option>=20
+  <option value=3D"MathML 2.0">MathML 2.0</option>
+  <option value=3D"SVG 1.0">SVG 1.0</option>
+  <option value=3D"SVG 1.1">SVG 1.1</option>
+  <option value=3D"SVG 1.1 Tiny">SVG 1.1 Tiny</option>
+  <option value=3D"SVG 1.1 Basic">SVG 1.1 Basic</option>
+  <option value=3D"SMIL 1.0">SMIL 1.0</option>
+  <option value=3D"SMIL 2.0">SMIL 2.0</option>
+</select></td>
+<td>            <input id=3D"direct-fbd" name=3D"fbd" type=3D"checkbox" val=
+ue=3D"1"><label for=3D"direct-fbd">Only if Doctype is missing</label></td>
+</tr>
+<tr><th colspan=3D"3"><input id=3D"direct_prefill_yes" name=3D"prefill" typ=
+e=3D"radio" value=3D"1">
+  <label for=3D"direct_prefill_yes">Validate HTML fragment</label></th></tr=
+>
+  <tr class=3D"subchoice" id=3D"choice_frag">
+    <th class=3D"subchoice_head">Use Doctype:</th>
+  <td colspan=3D"2">
+    <input type=3D"radio" name=3D"prefill_doctype" id=3D"directfill_doctype=
+_html401" value=3D"html401" checked=3D"checked"><label for=3D"directfill_do=
+ctype_html401">HTML 4.01</label>=20
+    <input type=3D"radio" name=3D"prefill_doctype" id=3D"directfill_doctype=
+_xhtml10" value=3D"xhtml10"><label for=3D"directfill_doctype_xhtml10">XHTML=
+ 1.0</label></td></tr>
+  <tr>
+          <td colspan=3D"3"><input type=3D"radio" name=3D"group" id=3D"dire=
+ctgroup_no" value=3D"0" checked=3D"checked"><label for=3D"directgroup_no">L=
+ist Messages Sequentially</label> <input type=3D"radio" name=3D"group" id=
+=3D"directgroup_yes" value=3D"1"><label for=3D"directgroup_yes">Group Error=
+ Messages by Type</label></td>
+
+</tr>
+<tr>
+        <td><input id=3D"direct-ss" name=3D"ss" type=3D"checkbox" value=3D"=
+1"><label title=3D"Show Page Source" for=3D"direct-ss">Show Source</label><=
+/td>
+        <td colspan=3D"2"><input id=3D"direct-st" name=3D"st" type=3D"check=
+box" value=3D"1"><label for=3D"direct-st">Clean up Markup with HTML-Tidy</l=
+abel>
+        </td>
+       =20
+
+
+          </tr>
+          <tr>
+                  <td><input id=3D"direct-outline" name=3D"outline" type=3D=
+"checkbox" value=3D"1"><label title=3D"Show an Outline of the document" for=
+=3D"direct-outline">Show Outline</label>
+                  </td>
+                  <td><input id=3D"direct-No200" name=3D"No200" type=3D"che=
+ckbox" value=3D"1"><label title=3D"Validate also pages for which the HTTP s=
+tatus code indicates an error" for=3D"direct-No200">Validate error pages</l=
+abel></td>
+
+                  <td><input id=3D"direct-verbose" name=3D"verbose" type=3D=
+"checkbox" value=3D"1"><label title=3D"Verbose Output" for=3D"direct-verbos=
+e">Verbose Output</label></td>
+        </tr>
+ =20
+                                        </tbody></table>
+                            </div></div>
+                            </fieldset>
+                           =20
+
+                  					<p class=3D"submit_button">
+                  							<input title=3D"Submit for validation" type=3D"sub=
+mit" value=3D"Check" style=3D"display: none;"><a class=3D"submit" href=3D"h=
+ttps://validator.w3.org/#">Check</a>
+                  					</p>
+
+
+                  </form>
+                </fieldset>
+  </div><!-- fields -->
+  </div> <!-- frontforms -->
+<div class=3D"intro">
+    <p>
+        This validator checks the=20
+        <a href=3D"https://validator.w3.org/docs/help.html#validation_basic=
+s" title=3D"What is markup validation?">markup validity</a>
+        of Web documents in HTML, XHTML, SMIL, MathML, etc.
+        If you wish to validate specific content such as=20
+        <a href=3D"https://validator.w3.org/feed/" title=3D"Feed validator,=
+ hosted at W3C">RSS/Atom feeds</a> or
+	<a href=3D"http://jigsaw.w3.org/css-validator/" title=3D"W3C CSS Validatio=
+n Service">CSS stylesheets</a>,=20
+	<a href=3D"https://validator.w3.org/mobile/" title=3D"MobileOK Checker">Mo=
+bileOK content</a>,
+        or to <a href=3D"https://validator.w3.org/checklink" title=3D"W3C L=
+ink Checker">find broken links</a>,=20
+ there are <a href=3D"http://www.w3.org/QA/Tools/">other validators and too=
+ls</a> available.
+ 		As an alternative you can also try our <a href=3D"https://validator.w3.o=
+rg/nu">non-DTD-based validator</a>.
+    </p>
+</div>
+
+<div id=3D"w3c-include" lang=3D"en" dir=3D"ltr"><div class=3D"w3c-include" =
+id=3D"w3c-include-validator-donation"><p><a href=3D"https://www.edx.org/pro=
+fessional-certificate/front-end-web-developer-9" title=3D"W3Cx" class=3D"w3=
+c-include-validator-donation-img"><img src=3D"https://www.w3.org/2018/12/w3=
+cx-fewd.png" alt=3D"W3Cx logo" height=3D"99" class=3D"w3c-include-sponsor-i=
+mg"></a></p><p><span class=3D"insert"><span>Interested in =E2=80=9Cdevelopi=
+ng=E2=80=9D your developer skills? In W3Cx=E2=80=99s hands-on Professional =
+Certificate Program, learn how to code the right way by creating Web sites =
+and apps that use the latest Web standards. <a href=3D"https://www.edx.org/=
+professional-certificate/front-end-web-developer-9">Find out more!</a></spa=
+n></span><br><br><span><a href=3D"https://www.w3.org/QA/Tools/Donate">Donat=
+e</a> and help us build better tools for a better web.</span></p></div></di=
+v>
+
+<ul class=3D"navbar" id=3D"menu">
+	<li><a href=3D"https://validator.w3.org/" accesskey=3D"1" title=3D"Go to t=
+he Home Page for The W3C Markup Validation Service">Home</a><span> | </span=
+></li>
+	<li><a href=3D"https://validator.w3.org/about.html" title=3D"Information A=
+bout this Service">About...</a><span> | </span></li>
+	<li><a href=3D"https://validator.w3.org/whatsnew.html" title=3D"The change=
+s made to this service recently">News</a><span> | </span></li>
+	<li><a href=3D"https://validator.w3.org/docs/" accesskey=3D"3" title=3D"Do=
+cumentation for this Service">Docs</a><span> | </span></li>
+	<li><a href=3D"https://validator.w3.org/docs/help.html" title=3D"Help and =
+answers to frequently asked questions">Help&nbsp;&amp;&nbsp;<abbr title=3D"=
+Frequently Asked Questions">FAQ</abbr></a><span> | </span></li>
+	<li><a href=3D"https://validator.w3.org/feedback.html" accesskey=3D"4" tit=
+le=3D"How to provide feedback on this service">Feedback</a></li>
+	<li><a href=3D"https://validator.w3.org/contribute.html" title=3D"How to c=
+ontribute to the validator project">Contribute</a></li>
+</ul>
+
+<div id=3D"footer">
+	<p id=3D"activity_logos">
+		<a href=3D"http://www.w3.org/Status" title=3D"W3C's Open Source, bringing=
+ you free Web quality tools and more">
+		<img src=3D"https://www.w3.org/Icons/WWW/w3c_home_nb" alt=3D"W3C" width=
+=3D"72" height=3D"47">
+		<img src=3D"https://validator.w3.org/images/opensource-55x48.png" alt=3D"=
+Open-Source" title=3D"We are building certified Open Source/Free Software. =
+- see www.opensource.org" width=3D"55" height=3D"48"></a>
+	</p>
+
+	<p id=3D"support_logo">
+		<a href=3D"http://www.w3.org/QA/Tools/Donate">
+			<img src=3D"https://www.w3.org/QA/Tools/I_heart_validator" alt=3D"I hear=
+t Validator logo" title=3D" Validators Donation Program" width=3D"80" heigh=
+t=3D"15">
+		</a>
+	</p>
+	<p id=3D"version_info">
+		This service runs the W3C Markup Validator, <a href=3D"https://validator.=
+w3.org/whatsnew.html#v14"><abbr title=3D"version">v</abbr>1.3+hg</a>.
+	</p>
+
+	<p class=3D"copyright">
+		<a rel=3D"license" href=3D"http://www.w3.org/Consortium/Legal/ipr-notice#=
+Copyright">Copyright</a> =C2=A9 1994-2013
+		<a href=3D"http://www.w3.org/"><abbr title=3D"World Wide Web Consortium">=
+W3C</abbr></a>=C2=AE
+
+		(<a href=3D"http://www.csail.mit.edu/"><abbr title=3D"Massachusetts Insti=
+tute of Technology">MIT</abbr></a>,
+		<a href=3D"http://www.ercim.eu/"><abbr title=3D"European Research Consort=
+ium for Informatics and Mathematics">ERCIM</abbr></a>,
+		<a href=3D"http://www.keio.ac.jp/">Keio</a>, <a href=3D"http://ev.buaa.ed=
+u.cn/">Beihang</a>),
+		All Rights Reserved.
+		W3C <a href=3D"http://www.w3.org/Consortium/Legal/ipr-notice#Legal_Discla=
+imer">liability</a>,
+		<a href=3D"http://www.w3.org/Consortium/Legal/ipr-notice#W3C_Trademarks">=
+trademark</a>,
+		<a rel=3D"license" href=3D"http://www.w3.org/Consortium/Legal/copyright-d=
+ocuments">document use</a>
+
+		and <a rel=3D"license" href=3D"http://www.w3.org/Consortium/Legal/copyrig=
+ht-software">software licensing</a>
+
+		rules apply. Your interactions with this site are in accordance
+		with our <a href=3D"http://www.w3.org/Consortium/Legal/privacy-statement#=
+Public">public</a> and
+		<a href=3D"http://www.w3.org/Consortium/Legal/privacy-statement#Members">=
+Member</a> privacy
+		statements.
+	</p>
+</div>
+
+
+
+
+
+
+ =20
+
+
+<iframe src=3D"cid:frame-7FF5BFC429EEA083A8E7D0DC5BE1AE73@mhtml.blink" styl=
+e=3D"position: absolute; width: 1px; height: 1px; left: -9999px;"></iframe>=
+</body></html>
+------MultipartBoundary--xncY303bSBrMlm08etq5yb9te0L8bP5vtXjz1f3zAi----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-ca70a790-1607-4da9-a0a9-f8f892309541@mhtml.blink
+
+@charset "utf-8";
+
+#w3c-include { display: table; width: 100%; box-sizing: border-box; margin:=
+ 1em 0px 0px; padding: 0px; }
+
+.w3c-include { display: table-row; padding-bottom: 1em; }
+
+.w3c-include > p { display: table-cell; vertical-align: middle; text-align:=
+ center; padding-bottom: 1em; }
+
+.w3c-include > p:first-of-type { padding-right: 1em; width: 20%; padding-le=
+ft: 2em; }
+
+.w3c-include > p:last-of-type { padding-right: 2em; }
+
+.w3c-include-sponsor-img { margin-left: 1em; }
+
+.FlattrButton { float: right; margin-right: 1em; }
+------MultipartBoundary--xncY303bSBrMlm08etq5yb9te0L8bP5vtXjz1f3zAi----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://validator.w3.org/style/base
+
+@charset "utf-8";
+
+html, body, form, fieldset, p, a, ul, ol, li, div, legend, label, br, input=
+, button, textarea, h1, h2, h3, h4, h5, strong { margin: 0px; padding: 0px;=
+ border: 0px; font-weight: normal; font-style: normal; font-size: 100%; fon=
+t-family: Helvetica, Arial, sans-serif; vertical-align: baseline; backgroun=
+d-color: white; color: rgb(31, 33, 38); line-height: 1; text-align: left; }
+
+a img { border: 0px; }
+
+a:link, a:visited { text-decoration: underline; color: rgb(54, 93, 149); }
+
+a:hover, a:active { text-decoration: underline; color: rgb(31, 33, 38); }
+
+ul, ol { list-style: none; }
+
+abbr[title], acronym[title], span[title], strong[title] { border-bottom: th=
+in dotted; cursor: help; }
+
+acronym:hover, abbr:hover { cursor: help; }
+
+body { padding-bottom: 6em; min-width: 40em; }
+
+p { line-height: 130%; }
+
+strong { font-weight: bold; }
+
+h2 { color: rgb(102, 153, 0); font-family: Verdana, Arial, sans-serif; back=
+ground-color: white; font-size: 1.3em; margin-bottom: 1em; }
+
+h3 { font-family: Verdana, Arial, sans-serif; color: rgb(102, 153, 0); back=
+ground-color: white; font-size: 1.1em; border-bottom: 1px dotted rgb(170, 1=
+70, 119); text-decoration: none; margin-top: 1em; margin-bottom: 1em; }
+
+h4 { font-family: Verdana, Arial, sans-serif; color: rgb(102, 153, 0); font=
+-style: italic; text-decoration: none; font-size: 0.9em; font-weight: 600; =
+margin-top: 1.5em; margin-bottom: 0.5em; }
+
+h5, h6 { font-family: Verdana, Arial, sans-serif; color: rgb(102, 153, 0); =
+background-color: white; font-weight: normal; font-size: small; margin-top:=
+ 1em; margin-left: 1em; margin-bottom: 0.7em; }
+
+th { padding: 6px; }
+
+#frontforms input { background-color: rgb(234, 235, 238); }
+
+#uri, #file, #uploaded_file, #keywords, #short_desc, textarea { font-family=
+: Monaco, "Courier New", monospace; font-size: 0.9em; border-width: 1px; bo=
+rder-style: solid; border-color: rgb(119, 119, 119) rgb(187, 187, 187) rgb(=
+221, 221, 221); padding: 0.2em; max-width: 1000px; font-variant: normal; bo=
+x-shadow: rgb(192, 192, 192) 1px 0px 2px 0px inset; background-color: rgb(2=
+55, 255, 255) !important; }
+
+#uri, #file, #uploaded_file { width: 85%; margin: 0.3em 0px 0px 1em; }
+
+#file, #uploaded_file { width: 30em; }
+
+#mailsearch, #bugsearch { background-color: rgb(234, 235, 238); color: rgb(=
+54, 93, 149); padding: 0.3em 1em; border: 1px outset rgb(204, 204, 204); }
+
+#mailsearch:active, #bugsearch:active { border-style: inset !important; }
+
+a.submit, p.submit_button input { display: block; width: 8em; text-align: c=
+enter; margin: 10px auto; padding: 0px 12px; border-radius: 28px; box-shado=
+w: rgb(134, 136, 142) 0px 0px 2px; color: rgb(54, 93, 149); font-size: 16px=
+; background-color: rgb(224, 224, 226); border: 1px solid rgb(134, 136, 142=
+); text-decoration: none; line-height: 32px; cursor: pointer; }
+
+a.submit:active, a.submit:hover, p.submit_button input:active, p.submit_but=
+ton input:hover { color: rgb(31, 33, 38); text-decoration: none; }
+
+textarea { width: 98.5%; }
+
+label { font-size: 0.9em; padding-left: 0.2em; padding-right: 0.2em; }
+
+div.options select { margin-right: 0.8em; }
+
+div.options label { margin-right: 0.3em; }
+
+div.options table, div.options tbody, div.options td, div.options th, div.o=
+ptions tr { margin: 0px; padding: 0px; }
+
+div.options table { border-collapse: collapse; }
+
+div.options th, div.options th label { font-weight: bold; }
+
+div.options td, div.options th { padding: 0.5em 1.1em 0.5em 0px; text-align=
+: left; }
+
+div.options td input { margin-right: 0.2em; }
+
+div.options select { width: 100%; }
+
+div.options table tr.subchoice th { padding-left: 3em; }
+
+tr.subchoice th label { padding-left: 0px; }
+
+tr.subchoice th, tr.subchoice th label { font-size: 1em; font-weight: norma=
+l; }
+
+#title { font-family: "Myriad Web", "Myriad Pro", "Gill Sans", Helvetica, A=
+rial, sans-serif; background-color: inherit; color: rgb(253, 253, 253); fon=
+t-size: 1.6em; padding-bottom: 0.43em; border-bottom-right-radius: 6px; bor=
+der-bottom-left-radius: 6px; }
+
+#title a, #title a img { background-color: inherit; }
+
+h1 span { border-bottom: 1px solid rgb(78, 111, 158); border-top-color: rgb=
+(78, 111, 158); border-right-color: rgb(78, 111, 158); border-left-color: r=
+gb(78, 111, 158); }
+
+#title a:link, #title a:hover, #title a:visited, #title a:active { text-dec=
+oration: none; color: rgb(253, 253, 253) !important; }
+
+#title img { vertical-align: middle; margin-right: 0.7em; }
+
+#banner { background-color: rgb(54, 93, 149); margin: 1.5em 2em; border-bot=
+tom-right-radius: 6px; border-bottom-left-radius: 6px; }
+
+#tagline { font-size: 0.7em; margin: -2em 0px 0px 12.1em; padding-bottom: 1=
+em; letter-spacing: 0.1em; color: rgb(208, 220, 238); background-color: tra=
+nsparent; line-height: 100% !important; }
+
+#lang_choice { position: absolute; top: 0px; right: 0px; font-size: 0.7em; =
+padding: 0.8em 0px; margin-right: 3.3em; }
+
+#lang_choice a:link, #lang_choice a:visited { text-decoration: none; }
+
+#lang_choice a:hover, #lang_choice a:active { text-decoration: underline; }
+
+#lang_choice li { display: inline; padding-left: 0.5em; }
+
+#tabset_tabs { height: 1.59em; }
+
+#tabset_tabs li { cursor: pointer; float: left; margin-right: 0.245em; back=
+ground-color: rgb(218, 221, 227); border-bottom: 1px solid rgb(203, 208, 21=
+9); border-top-left-radius: 6px; border-top-right-radius: 6px; }
+
+#tabset_tabs li.selected { background-color: rgb(234, 235, 238); border-bot=
+tom: 1px solid rgb(234, 235, 238); }
+
+#tabset_tabs li.selected a:link, #tabset_tabs li.selected a:visited { color=
+: rgb(31, 33, 38); background-color: rgb(234, 235, 238); }
+
+#tabset_tabs li span { color: rgb(97, 101, 113); }
+
+#tabset_tabs li.selected a span { color: rgb(61, 66, 79); }
+
+#tabset_tabs li a:link, #tabset_tabs li a:visited { color: rgb(54, 93, 149)=
+; display: block; padding: 0.515em 1.3em 0.215em 0.8em; background-color: r=
+gb(218, 221, 227); margin-left: 0.5em; font-size: 0.9em; font-weight: bold;=
+ text-decoration: none; border-top-left-radius: 6px; border-top-right-radiu=
+s: 6px; }
+
+#tabset_tabs li a:hover, #tabset_tabs li a:active { color: rgb(31, 33, 38);=
+ }
+
+#tabset_tabs li a:hover span, #tabset_tabs li a:active span { color: rgb(61=
+, 66, 79); }
+
+#tabset_tabs li.selected span { color: rgb(93, 99, 113); }
+
+#frontforms { background: rgb(255, 255, 255); padding: 0px 2em; }
+
+#fields { clear: both; background-color: rgb(234, 235, 238); padding: 0.5em=
+ 1.3em; border-bottom: 1px solid rgb(220, 221, 224); border-top-right-radiu=
+s: 6px; }
+
+#fields legend, #fields p, #fields p strong, #fields p a, #fields fieldset,=
+ #fields form, #fields form fieldset legend a, #fields form p label, #field=
+s tr label { background-color: rgb(234, 235, 238); }
+
+fieldset { background: rgb(234, 235, 238); }
+
+legend { font-size: 1.1em; padding: 1em 0px 0.23em; letter-spacing: 0.06em;=
+ }
+
+legend a:link, legend a:visited, legend a:hover, legend a:active { text-dec=
+oration: none; }
+
+.toggletext { cursor: pointer; padding-left: 0.2em; }
+
+.toggletext > a { padding-bottom: 2px; }
+
+.toggletext > a::before { display: inline-block; content: ""; border-top: 6=
+px solid transparent; border-bottom: 6px solid transparent; border-left: 6p=
+x solid black; margin-right: 6px; }
+
+.toggletext.toggled > a::before { transform: rotate(90deg); }
+
+.toggletext.toggled { padding-bottom: 4px; }
+
+p.instructions { color: rgb(77, 82, 94); font-size: 0.8em; padding-bottom: =
+1em; padding-top: 0.5em; }
+
+p.instructions label { color: rgb(77, 82, 94); padding: 0px; margin: 0px; f=
+ont-size: 1em; }
+
+div.options { padding: 0.7em 0px 0.5em 1em; }
+
+div.options, p.submit_button, p.instructions, #note { border-top: 1px solid=
+ rgb(203, 205, 213); background: url("data:image/png;base64,iVBORw0KGgoAAAA=
+NSUhEUgAAAAIAAAABCAAAAADRSSBWAAAAC0lEQVR4AWP4+hUAAuIB6zPTZB8AAAAASUVORK5CYI=
+I=3D") left top repeat-x rgb(234, 235, 238); }
+
+p.submit_button { padding: 0.6em 0px 0px; margin: 0px; text-align: center; =
+}
+
+#note { clear: both; color: rgb(77, 82, 94); font-size: 0.9em; padding: 0.5=
+em 0px 0.1em; }
+
+#menu { text-align: center; margin: 1em 2em; background-color: rgb(234, 235=
+, 238); padding: 0.5em 0px 0.3em; border-top: 1px solid rgb(220, 221, 224);=
+ border-bottom-right-radius: 6px; }
+
+#menu span { display: none; }
+
+#menu a:link, #menu a:visited { background: rgb(234, 235, 238); color: rgb(=
+54, 93, 149); text-decoration: none; }
+
+#menu a:hover, #menu a:active { color: rgb(31, 33, 38); text-decoration: un=
+derline; }
+
+#menu li { display: inline; margin-right: 0.8em; }
+
+#footer { padding: 0px 2em; }
+
+#activity_logos { float: left; padding-right: 2em; margin-top: 0.6em; }
+
+#support_logo { float: right; font-size: 0.8em; text-align: center; padding=
+-left: 2em; padding-top: 1.8em; width: 90px; height: 100px; }
+
+p.copyright { text-align: center; text-transform: uppercase; font-size: 0.7=
+em; line-height: 1.4; }
+
+p.copyright, p.copyright a { text-decoration: none; color: rgb(124, 131, 14=
+9); }
+
+p.copyright a:link, p.copyright a:visited { color: rgb(163, 117, 110); }
+
+p.copyright a:hover, p.copyright a:active { color: rgb(125, 74, 66); }
+
+#version_info { font-size: small; text-align: center; color: rgb(136, 136, =
+136); background-color: white; }
+
+div.doc { margin: 1em 2em; padding: 0.5em 0px 0.3em; }
+
+div.doc p, div.doc li { line-height: 150% !important; }
+
+div.doc p { margin-bottom: 0.7em; margin-top: 0.5em; }
+
+div.doc p, div.doc dt, div.doc ul, div.doc ol { margin-left: 1.5em; margin-=
+right: 1.5em; }
+
+div.doc ul li { list-style-type: disc; margin-left: 1em; }
+
+#toc { margin-left: 40px; }
+
+div.doc #toc ol, div.doc ol { list-style-type: decimal; }
+
+div.doc #toc ol li { line-height: 130%; font-weight: bold; }
+
+div.doc #toc ol li ol { list-style-type: lower-alpha; font-weight: normal; =
+margin-left: 1em; }
+
+div.doc #toc ol li ol li ol { list-style-type: lower-roman; }
+
+#expl dt code { white-space: normal; font-weight: bold; }
+
+#expl dt { border-top: 1px dashed black; margin-top: 2em; margin-bottom: 1e=
+m; }
+
+div.doc dt { margin-top: 1.2em; margin-bottom: 0.2em; }
+
+div.doc dt, div.doc dt a { font-style: italic; }
+
+div.doc dd { margin-right: 0px; }
+
+div.doc var { color: rgb(0, 0, 102); }
+
+div.doc code { white-space: normal; display: inline; padding-left: 0.2em; p=
+adding-right: 0.2em; color: black; font-family: Monaco, "Courier New", mono=
+space; border: 1px dotted rgb(204, 204, 204); }
+
+div.doc code.block { display: block; padding: 1em; white-space: pre; margin=
+-top: 1em; margin-bottom: 1em; margin-right: 3em; }
+
+div.doc pre { margin-left: 5em; padding-left: 2em; line-height: 150%; borde=
+r-left: 1px solid rgb(102, 153, 0); }
+
+div.doc code samp { font-weight: normal; color: black; font-style: italic; =
+}
+
+div.doc table { border-collapse: collapse; border-right: 1px solid rgb(204,=
+ 204, 204); }
+
+div.doc table td, .doc table th { border-top: 0px solid rgb(221, 221, 221);=
+ border-bottom: 1px solid rgb(204, 204, 204); border-left: 1px solid rgb(23=
+8, 238, 238); padding: 6px; border-collapse: collapse; }
+
+div.doc table th { background-color: rgb(238, 238, 238); color: rgb(17, 17,=
+ 26); border-right: 1px solid rgb(204, 204, 204); }
+
+div.doc table { margin-top: 1em; margin-bottom: 0.5em; border-collapse: col=
+lapse; border-right: 1px solid rgb(204, 204, 204); }
+
+div.doc td, div.doc th { border-top: 0px solid rgb(221, 221, 221); border-b=
+ottom: 1px solid rgb(204, 204, 204); border-left: 1px solid rgb(238, 238, 2=
+38); border-collapse: collapse; }
+
+div.doc th { background-color: rgb(238, 238, 238); color: rgb(17, 17, 26); =
+border-right: 1px solid rgb(204, 204, 204); }
+
+div.intro { margin: 1em 2em; padding: 0.5em 0px 0.3em; }
+
+div.intro p { margin-bottom: 0.5em; }
+
+#news dt { font-weight: bold; margin-top: 1.5em; margin-bottom: 0.3em; }
+
+#news dd { margin-left: 2.5em; margin-right: 1.5em; }
+
+#test_warning { border-left: 1px solid rgb(204, 204, 204); border-right: 1p=
+x solid rgb(204, 204, 204); line-height: 160%; text-align: center; margin-t=
+op: 2em; margin-left: 12%; margin-right: 12%; padding-left: 1.5em; padding-=
+right: 1.5em; color: black; background-color: white; }
+
+#test_warning img { width: 1.3em; vertical-align: middle; }
+
+.html5_logo_32 { float: left; padding-top: 8px; padding-right: 20px; paddin=
+g-left: 28px; }
+
+.html5_logo_128 { float: left; padding-top: 9px; padding-right: 20px; paddi=
+ng-left: 18px; }
+------MultipartBoundary--xncY303bSBrMlm08etq5yb9te0L8bP5vtXjz1f3zAi----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: https://validator.w3.org/images/w3c.png
+
+iVBORw0KGgoAAAANSUhEUgAAAG4AAAA9CAMAAAB7n6yQAAACr1BMVEX////6+/2qutJoha87YZc2
+XZXq7vRce6lZeqhlg65LbqC6yNtVdqXx9PhXeKa9yty/zN3y9fj+/v719vnu7u7x9PezwdZ1kLaB
+mr2Ojo5/f3+urq5gYGAwMDBAQECenp79/f2ywdbx8/ZPcaIQEBAAAAA/Pz/Nzc1vb29fX19+fn6m
+t8+Bmbxbe6m/y9zY3+kgICDd3d2+vr5CZ5yZrcnk6fDt7e38/PzX3ulbe6iZrMjs7OydnZ0vLy+N
+o8Lw8vZ0j7W9vb3c3NxPT0++ytyxwNXK1OKNjY37+/tCZ5vi5+6kts5nha/MzMysrKzr6+u8vLyA
+mLvv8fXK0+F9fX1eXl76+vru8PTV3OdzjrWMosFOTk7b29u9ydqYq8fh5u3J0+FnhK75+fnU3OZO
+caLh5eyjtM1/mLvI0uA+Pj67u7uwvtNzjrSXq8ft7/P4+Pi7x9nH0d+XqsbT2+Xs7vKvvtN/l7p8
+fHyLocBOcKHg5eyqqqr39/eis8xaeqeuvdK6x9jT2uXf5Ovo6Ojr7fGWqsbH0N5sbGz29vZ+l7rS
+2eRmg626xtjIyMiKoMCis8ve4+pyjbPG0N719fW5xdetvNHR2ON+lrmKoL/p6+/d4um2v83Fz92N
+j5PW1tbHx8f09PTo6+6su9BCZpuhssrl5eU9PT0fHx+3t7fc4ejQ2OKJn79aeadNTU2np6d6enqJ
+iYkPDw/GxsZcXFzz8/Pb4OeUqMTn6u19lbhxjLK4xNbFxcVbW1vP1+Flg622traIiIjV1dWJn76g
+scpra2uYmJjy8vK3w9Xa3+Zlgqyrus/m6exZeafj4+MuLi6Jnr5qamrx8fGruc5xi7LCzNpZeaZ8
+lbjExMQtLS08PDx4eHjT09Pm6Ozo6u22wtRVdaTj5urw8PBKbZ+zwNLe4udIoQR1AAAEZElEQVR4
+AezNtQFDIQAFwPcVd/afNS2poji3wAHY9uO8CgFucpWDjV4FYb9KAivbnWW763OrWx0XN/K5BX/q
+pEJeSqedQW427ZzPLaSdz2+cLr7dPQgfCzTlYhiK/roD3C2Fh7u7juK2/5VMk758LX6xexLaA05i
+p00uBLd5yvP/On/Z4fX5/KoG5MsXDAXDD3QRnb/IURti5pYSv9WphT8BMiIpaxgikZSVTqetsD74
+QJdBzjLlkPJ6W7iW8XfDoJKQviKUIsEIlIv+4EsdXVhhqhpy5qvUcJ4ETrEuzeVyOgKiWBf3dQ0j
+cRw0bWgixPWyRfyXQv1/m+YCOJAqAqQ7ogHdYqOnTz7S9XHQv5VjBv8xAwVDUhOMACPS6SKVxLgx
+6YrGxEq91k1x0GLKIrWZZkhD1ed0ckbdQscI2wJ16UajM5mkBduudW9m3nHyYcOM5LwaIn2q3sL+
+pTravlVdyrrCMl7TB+ehju6c2bCh/fb2l8xosaO+lro1H1/AnutrHV80NAUs3+m/uqXFRs33AAd9
+frJ6pTuaORmj8w9pdHWeUBAGYfhqGol1QQF7Hcfd3WUhnuDacOZZftzhTYA5B/kQGK+cZAVZF1M9
+c5Ht9tb+dMCOHJlfxWGmE4bipGvQyxO5QHA+Ed3dWp7OzUnDuiiTWxqQsgd0zSG5h5Ny3hU+kN9L
+AQirl4KgkJfCIIS9InIb9R6yK0d+kI8jBmHicVBMHkAqkZzlvJfkQqCgBJQVFPB6kyAk5WMaft80
+Zzktl1qVBnk4FIB4xsTnZykLCJVLUSSSOmhnjgDKM0CFaTSVKkpWctLL87h0YS4O0ymbKjvmpgKq
+pkSmCKPIXTsxp9fUQUXNABpav4HeP0AVvfChAPrU+iuiD9qX+wQpE6hr/Q0q/oDKeskv5AH677Rc
+c10D1AK1edQBUGmAuiuP6oA6HL3mQXtzfYhKkwYQauVBcr5JF+baEP0mDSFGzRXjM3OTDQpE/8WQ
+BdIbMQxGh3wUH7J4gQ6XeSnMzMyM5YZzkLqy5l9vmPOG9MnwRnoF6RGm18ZLb6D5BtNuduve4vZ4
+ekc4742XPkDz4wV0r3F7PH3i6bnxDrY/f1l9/HWPTlpDJoCCUYWk8SNZQhTomszSChartMZunfQC
+DmyY+G7trLI5VIckdp2Syy0Z8FDv0TqNfyXO8QgNqk3cwFvJ6vNLAlZKA7t1wXVChBEOIhHCiLIC
+vM4INGPwNh4Mmn0J/WHCR2kyuMYOHfCI9VMPKQ0fM68KvhAro/D0Easy1JcJIllKqS93vC7Pv0IK
+/BYUIEw/Ijgco8gGggHdZsooBXfryhuosO3pqUpIjFc1IoJX/lt8ZnAxc3kDu3SASipCekTqvGg0
+iU6zwZutNkXQdrwuZmh3SBWrRkyfDWzg66LMly3v1fU20R+IafhNqAcqe6R+H4oXfiR/Uvrr95/e
+Zgy663NH3d+r20aibnx13VjUTaaz6zKdiDoyXyyvKFsu5uQfbJ91fBFOY1oAAAAASUVORK5CYII=
+
+------MultipartBoundary--xncY303bSBrMlm08etq5yb9te0L8bP5vtXjz1f3zAi----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: https://www.w3.org/2018/12/w3cx-fewd.png
+
+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
+cGUub3Jnm+48GgAAAABJRU5ErkJggg==
+
+------MultipartBoundary--xncY303bSBrMlm08etq5yb9te0L8bP5vtXjz1f3zAi----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: https://www.w3.org/Icons/WWW/w3c_home_nb
+
+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
+WCDk55QAAAAASUVORK5CYII=
+
+------MultipartBoundary--xncY303bSBrMlm08etq5yb9te0L8bP5vtXjz1f3zAi----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: https://validator.w3.org/images/opensource-55x48.png
+
+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
+
+------MultipartBoundary--xncY303bSBrMlm08etq5yb9te0L8bP5vtXjz1f3zAi----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: https://www.w3.org/QA/Tools/I_heart_validator
+
+iVBORw0KGgoAAAANSUhEUgAAAFAAAAAPCAMAAABEF7i9AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJ
+bWFnZVJlYWR5ccllPAAAAEJQTFRFAFqc////AAAAu9PlRIa2d6fKiLLRM3uwEWWjzN7rwNbngK3O
+ZpzEInCpkLfUmb3X3enyVZG9MHmvYJjBIG+o7vT4nbi73AAAAK1JREFUeNrMk+sOwjAIhWFAadV5
+9/1f1UI7XZz9h4kkpZxD+jUsHUzBAROGhgEhMH4JvN59E8kXyRHA3d6yIhZEqVXSvqgLS4lMdY9I
+3+UIOPuXNSCxr3RgasISianmaamT9LbbX4EglXe2kfWkpBmoEK6ADKbcW65sBo+AQIjaCvZTwlug
+8AeQcTvy8db2+SG9uVDQb2lAxJfX+ytj8GzkX99hIDD6Xw6OpwADAALMBacrRrN/AAAAAElFTkSu
+QmCC
+
+------MultipartBoundary--xncY303bSBrMlm08etq5yb9te0L8bP5vtXjz1f3zAi----
+Content-Type: text/html
+Content-ID: <frame-7FF5BFC429EEA083A8E7D0DC5BE1AE73@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://www.ciuvo.com/ciuvo/globalstorage?version=2.1.3
+
+<!DOCTYPE html><html><head><meta http-equiv=3D"Content-Type" content=3D"tex=
+t/html; charset=3Dwindows-1252"></head><body>
+   =20
+
+
+</body></html>
+------MultipartBoundary--xncY303bSBrMlm08etq5yb9te0L8bP5vtXjz1f3zAi------

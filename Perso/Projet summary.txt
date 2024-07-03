@@ -1,0 +1,47 @@
+
+CONTEXTE
+- Site internet de promotion de manifestation & boutique de vente en ligne
+- Concernés: BDE, étudiants, salariés CESI
+- 01 site/BDE
+- #Un étudiant peut changer de centre
+
+
+BESOINS
+
+- Étudiants
+	*Inscription: nom, prénom, localisation, adresse mail, mdp(>MAJ+1num)
+	*Se connecter
+	*Consulter TOUT le site et accéder à la boutique (!=achat)
+	étant connecté:
+		S’inscrire à une activité proposée par les membres du BDE
+		Accéder à la «boite à idées» et voter pour les activités proposées par d'autres étudiants
+		Proposer une idée d’activité au BDE, qui sera visible de tous les visiteurs connectés au site dans la partie « boite à idées »
+		Ajouter des photos sur les événements passés pour lesquels j’étais inscris.
+		Commenter et liker les photos d’un événement passé.
+
+- Membres du BDE
+	*Poster mainifestation dans une partie «événement du mois»
+	*Choisir une manifestation proposée dans la partie «boîte à idées»
+	*Notifier l’étudiant ayant proposé une idée si son idée a été retenu;
+	*Accéder, pour chaque manifestation proposée, à la liste des inscrits et la télécharger au format PDF ou CSV
+	*Administrer les photos et commentaires de la partie « événements passés »
+
+- Salariés CESI
+	*Notifier l’ensemble des membres du BDE des possibles mauvaises publications
+	*Naviguer dans tout le site comme les etudiants
+	*Télécharger via un bouton l’ensemble des photos postés par les étudiants et les membres du BDE
+
+CMS(Content Management System): Outli de developpement graphique de site web	
+
+Etudiant: id_etudiant, nom, prénom, localisation, email, mdp
+BDE: id_BDE, auteur, mdp
+Boite_a_idee: id_idee, auteur, description, image
+Manifestation: id_manif, auteur, description, image, date, statut
+Etud_manif: id_etudiant, id_manif
+evenement_du_mois: id_eve, id_manif, date
+evenement_passes: i
+
+statut(ponctuelle ou récurrente, payante ou gratuite)
+
+
+Login, Session, recherche (& autocomplete)
